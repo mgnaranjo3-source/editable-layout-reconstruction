@@ -1,0 +1,63 @@
+{
+  "canvas": { "width": 800, "height": 1000, "units": "px", "origin": "top-left", "background": "#FFF8EE" },
+  "source": "examples/flyer-flat.png",
+  "elements": [
+    { "id": "header-band", "type": "shape", "shape": "rectangle", "z": 1, "group": "header",
+      "bbox": { "x": 0, "y": 0, "w": 800, "h": 220 }, "fill": "#1F4E5F" },
+
+    { "id": "title", "type": "text", "z": 2, "group": "header",
+      "bbox": { "x": 218, "y": 62, "w": 364, "h": 73 },
+      "text": "Book Swap", "font_family": "Georgia", "font_category": "serif", "font_size": 64,
+      "font_weight": 700, "color": "#FFFFFF", "align": "center", "role": "headline" },
+
+    { "id": "subtitle", "type": "text", "z": 3, "group": "header",
+      "bbox": { "x": 256, "y": 148, "w": 288, "h": 34 },
+      "text": "Intercambio de Libros", "font_family": "Arial", "font_category": "sans-serif", "font_size": 30,
+      "font_weight": 400, "color": "#F6C667", "align": "center", "role": "subheadline", "language": "es" },
+
+    { "id": "illustration-circle", "type": "shape", "shape": "ellipse", "z": 4, "group": "illustration",
+      "bbox": { "x": 250, "y": 290, "w": 300, "h": 300 }, "fill": "#F6C667" },
+
+    { "id": "book-left", "type": "shape", "shape": "rounded-rectangle", "corner_radius": 6, "z": 5, "group": "illustration",
+      "bbox": { "x": 300, "y": 380, "w": 90, "h": 130 }, "fill": "#1F4E5F" },
+
+    { "id": "book-right", "type": "shape", "shape": "rounded-rectangle", "corner_radius": 6, "z": 6, "group": "illustration",
+      "bbox": { "x": 410, "y": 370, "w": 90, "h": 140 }, "fill": "#E07A5F" },
+
+    { "id": "date-time", "type": "text", "z": 7, "group": "details",
+      "bbox": { "x": 122, "y": 650, "w": 556, "h": 38 },
+      "text": "Saturday, March 14 · 10 AM – 1 PM", "font_family": "Arial", "font_category": "sans-serif", "font_size": 34,
+      "font_weight": 700, "color": "#1F4E5F", "align": "center", "role": "body-emphasis" },
+
+    { "id": "location", "type": "text", "z": 8, "group": "details",
+      "bbox": { "x": 238, "y": 707, "w": 325, "h": 29 },
+      "text": "Community Library, Room B", "font_family": "Arial", "font_category": "sans-serif", "font_size": 26,
+      "font_weight": 400, "color": "#3D3D3D", "align": "center", "role": "body" },
+
+    { "id": "tagline", "type": "text", "z": 9, "group": "details",
+      "bbox": { "x": 144, "y": 750, "w": 511, "h": 25 },
+      "text": "Bring a book, take a book · Trae un libro, llévate otro", "font_family": "Arial", "font_category": "sans-serif",
+      "font_size": 22, "font_weight": 400, "color": "#3D3D3D", "align": "center", "role": "body", "language": "en+es" },
+
+    { "id": "cta-button", "type": "shape", "shape": "rounded-rectangle", "corner_radius": 35, "z": 10, "group": "cta",
+      "bbox": { "x": 250, "y": 820, "w": 300, "h": 70 }, "fill": "#E07A5F" },
+
+    { "id": "cta-label", "type": "text", "z": 11, "group": "cta",
+      "bbox": { "x": 332, "y": 840, "w": 136, "h": 31 },
+      "text": "Free entry", "font_family": "Arial", "font_category": "sans-serif", "font_size": 28,
+      "font_weight": 700, "color": "#FFFFFF", "align": "center", "role": "button-label" },
+
+    { "id": "footer-note", "type": "text", "z": 12, "group": "footer",
+      "bbox": { "x": 249, "y": 944, "w": 303, "h": 20 },
+      "text": "Sample design for demonstration only", "font_family": "Arial", "font_category": "sans-serif", "font_size": 18,
+      "font_weight": 400, "color": "#7A7A7A", "align": "center", "role": "caption" }
+  ],
+  "groups": [
+    { "id": "header", "members": ["header-band", "title", "subtitle"] },
+    { "id": "illustration", "members": ["illustration-circle", "book-left", "book-right"] },
+    { "id": "details", "members": ["date-time", "location", "tagline"] },
+    { "id": "cta", "members": ["cta-button", "cta-label"] },
+    { "id": "footer", "members": ["footer-note"] }
+  ],
+  "palette": ["#FFF8EE", "#1F4E5F", "#F6C667", "#E07A5F", "#3D3D3D", "#7A7A7A", "#FFFFFF"]
+}

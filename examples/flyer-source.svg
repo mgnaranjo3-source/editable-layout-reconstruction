@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <!-- Synthetic flyer used as the "flat" input for the reconstruction example -->
+  <rect x="0" y="0" width="800" height="1000" fill="#FFF8EE"/>
+  <rect x="0" y="0" width="800" height="220" fill="#1F4E5F"/>
+  <text x="400" y="120" font-family="Georgia, serif" font-size="64" font-weight="700" fill="#FFFFFF" text-anchor="middle">Book Swap</text>
+  <text x="400" y="175" font-family="Arial, sans-serif" font-size="30" fill="#F6C667" text-anchor="middle">Intercambio de Libros</text>
+  <circle cx="400" cy="440" r="150" fill="#F6C667"/>
+  <rect x="300" y="380" width="90" height="130" rx="6" fill="#1F4E5F"/>
+  <rect x="410" y="370" width="90" height="140" rx="6" fill="#E07A5F"/>
+  <text x="400" y="680" font-family="Arial, sans-serif" font-size="34" font-weight="700" fill="#1F4E5F" text-anchor="middle">Saturday, March 14 · 10 AM – 1 PM</text>
+  <text x="400" y="730" font-family="Arial, sans-serif" font-size="26" fill="#3D3D3D" text-anchor="middle">Community Library, Room B</text>
+  <text x="400" y="770" font-family="Arial, sans-serif" font-size="22" fill="#3D3D3D" text-anchor="middle">Bring a book, take a book · Trae un libro, llévate otro</text>
+  <rect x="250" y="820" width="300" height="70" rx="35" fill="#E07A5F"/>
+  <text x="400" y="866" font-family="Arial, sans-serif" font-size="28" font-weight="700" fill="#FFFFFF" text-anchor="middle">Free entry</text>
+  <text x="400" y="960" font-family="Arial, sans-serif" font-size="18" fill="#7A7A7A" text-anchor="middle">Sample design for demonstration only</text>
+</svg>
